@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dinArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="79dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/suleymaniye" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Süleymaniye Camii \n Kanuni Sultan Süleyman adına 1551-1557 yılları arasında İstanbul'da Mimar Sinan tarafından inşa edilen camidir.[2]  Mimar Sinan'ın kalfalık devri eseri olarak nitelendirilen Süleymaniye Camii, medreseler, kütüphane, hastane, sıbyan mektebi, hamam, imaret, hazire ve dükkânlardan oluşan Süleymaniye Külliyesi'nin bir parçası olarak inşa edilmiştir." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+                <Button
+                    android:id="@+id/dinListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500" />
+
+
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ayasofya" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ayasofya \n İstanbul'da yer alan bir cami, eski bazilika, katedral ve müze. Bizans İmparatoru I. Justinianus tarafından, 532-537 yılları arasında İstanbul'un tarihî yarımadasındaki eski şehir merkezine inşa ettirilmiş bazilika planlı bir patrik katedrali olup 1453 yılında İstanbul'un Osmanlılar tarafından fethedilmesinden sonra Fatih Sultan Mehmed tarafından camiye dönüştürülmüştür. 1934 yılında yayımlanan Bakanlar Kurulu Kararnamesi ile müzeye dönüştürülmüş, kazı ve tadilat çalışmaları başlatılmış ve 1935-2020 yılları arasında müze olarak hizmet vermiştir. 2020 yılında ise müze statüsünün iptal edilmesiyle tekrar cami statüsü kazanmıştır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dinListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sultanahmetx" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sultan Ahmet Camii \n 1609-1617 yılları arasında Osmanlı Padişahı I. Ahmed tarafından İstanbul'daki tarihî yarımadada, Mimar Sedefkâr Mehmed Ağa'ya yaptırılmıştır. Cami mavi, yeşil ve beyaz renkli İznik çinileriyle bezendiği için ve yarım kubbeleri ve büyük kubbesinin içi de yine mavi ağırlıklı kalem işleri ile süslendiği için Avrupalılarca &quot;Mavi Camii (Blue Mosque)&quot; olarak adlandırılır. Ayasofya'nın 1935 yılında camiden müzeye dönüştürülmesiyle, İstanbul'un ana camii konumuna ulaşmıştır. Aslında Sultanahmet Camii külliyesiyle birlikte, İstanbul’daki en büyük eserlerden biridir. Bu külliye bir cami, medreseler, hünkar kasrı, arasta, dükkânlar, hamam, çeşme, sebiller, türbe, darüşşifa, sıbyan mektebi, imarethane ve kiralık odalardan oluşmaktadır. Bu yapıların bir kısmı günümüze ulaşamamıştır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dinListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ortodokspatrikhanex" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rum Ortodoks Patrikhanesi \n Ortodoks Hristiyanlığı temsil eden Doğu Ortodoks Kilisesi'ni oluşturan 14 otosefal kiliseden biri. Günümüzde İstanbul-Yeni Roma Başepiskoposu ve Ekümenik Patriği I. Bartholomeos tarafından yönetilmektedir. Doğu Roma İmparatorluğu'nun başkentinde bulunması ve günümüzde de Ortodoks kiliselerinin çoğunun ana kilisesi olması nedeniyle Ortodokslukta özel bir yeri vardır. Ekümenik Patrik diğer Doğu Ortodoks episkoposları arasında &quot;Primus inter pares&quot; (eşitlerin birincisi) unvanını taşır ve Papa'nın aksine tamamıyla özerk olan otosefal kiliselere müdahale etmez. Buna rağmen dünyadaki yaklaşık 300 milyon Ortodoks Hristiyan'ın temsilcisi ve dini lideri olarak görülür." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dinListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ayayorgipatrikhanex" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aya Yorgi Patrikhane Kilisesi \n Türkiye'de İstanbul iline bağlı Fatih ilçesinin Fener semtinde bulunan ve İstanbul Rum Ortodoks Patrikhanesi'ne ev sahipliği yapan kilise. Avlusunda Patriklik binası, kütüphane ve Aya Haralambos Ayazması'nın bulunduğu kilisenin yerinde önceleri Burç Kilisesi adıyla başka bir kilise bulunmaktayken 1614'te başka bir kilise inşa edilmiş ve kilise 1720'de elden geçirilmiştir. Dünya çapında 300 milyon Ortodoks Hristiyanın manevi lideri olarak kabul edilen Ekümenik Konstantinopolis Patrikhanesi'nin merkezi olmuştur. Kilisede Hristiyanlığa ait İsa'nın Kudüs'te zincirlenerek kırbaçlandığına inanılan taş bir kutsal emanet olarak yer almaktadır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dinListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

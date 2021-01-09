@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yemekArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/eminonubalikxxxx" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eminönü Balık Ekmeği \n
+İstanbul denince ilk akla balık ekmek gelir. Eminönü semtinde sokak satıcıları tarafından seyyar olarak veya teknede satılan balık ekmeklerden yemeden İstanbul’dan dönmeyin. Balık ekmeğinizin yanında meşhur Eminönü turşu suyunu da denemeyi unutmayın." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                //************************************************
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ortakoykumpir" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ortaköy Kumpiri \n
+Ortaköy girişinde yer alan sokak satıcıları tarafından Türkiye'nin en lezzetli kumpirleri yapılmaktadır. Ortaköy manzarasını izlemek için geldiğinizde karışık mezeli kumpirlerin tadına bakmayı ihmal etmeyin.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                //************************************************
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sariyerboregi" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sarıyer Böreği \n Sarıyer’in tarihi mekanında boğaza karşı İstanbul’un meşhur Sarıyer böreğini yiyerek hem manzaranın hem de meşhur tarihi lezzetin tadını çıkartabilirsiniz.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/karakoypogocasi" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Karaköy Poğaçası \n Tüm Türkiye'nin yakından tanıdığı ve en çok tüketilen kahvaltılıklar arasında yer alan Karaköy poğaçasını yerinde yemek için yolunuz Karaköy’e düşerse bu fırsatı kaçırmayın. Karaköy İskelesi’ne karşı bir yandan meşhur Karaköy poğaçanızı yiyebilir, bir yandan martıları besleyerek anın tadını çıkartabilirsiniz." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/beyoglucikolatasi" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beyoğlu Çikolatası \n Bol fındık, ağızda enfes tat bırakan çikolatası ve İstiklal Caddesi’nin hareketliliği içinde Beyoğlu çikolatası sizi büyülemeyi başaracak. İstiklal Caddesi’ni turlarken tüm Türkiye’de tanınan Beyoğlu çikolatasını tatmayı es geçmeyin." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alibeykoytulumbasi" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alibeyköy Tulumbası \n Türkiye'nin en lezzetli tulumbalarının tadına Alibeyköy’de bakabilirsiniz. Alibeyköy Camii’nin hemen yanı başında bulunan bu lezzetleri tadarak neden Alibeyköy denince akla tulumbanın geldiğini daha iyi anlayabilirsiniz." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/camlicasimidi" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Çamlıca Simidi \n Tereyağı, kaşar ve süt ile yapılan ve tüm Türkiye’de tanınan İstanbul simidi için Çamlıca’ya uğramanız gerekecek. Çamlıca manzarası ile birlikte İstanbul simidinin tadını çıkartmadan İstanbul’da tüm lezzetleri tattığınızdan emin olmayın." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/istanbulkokorec" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sokak Kokoreci \n Steril olmadığı gerekçesiyle bir dönem yasaklanması gündeme gelen kokoreç için İstanbul doğru adrestir.Tadı damağınızda kalacak ve sterilliğinden şüphe etmeyeceğiniz leziz kokoreçler seyyar satıcıların maharetli ellerinden sizlere sunuluyor. Beyoğlu, Şişli ve Asmalı Mescit civarlarında seyyar olarak kokoreç satan tezgahlarla karşılaştığınızda bu fırsatı kaçırmayın. " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/istanbulpilav" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="İstanbul Pilavı \n  Osmanlı Mutfağının İstanbul'a hediyesi olan İstanbul pilavı, gerek seyyar satıcılardan gerek lokantalardan tadılması gereken tarihi İstanbul lezzetleri arasındadır. Düğünlerde, cenazelerde, bayramlarda ve önemli etkinliklerde halen yapılan İstanbul pilavını tatmadan İstanbul’dan ayrılmayı düşünmeyin. " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sutluceuylugu" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sütlüce Uykuluğu \n Sütlüce semtinde dana ve kuzu ciğer, böbrek, yürek, bağırsak ve gerdanından yapılan uykuluk oldukça meşhur bir geleneksel lezzettir. Sakatat severler için bahar aylarında Sütlüce’de enfes uykuluk yemeği ihmal edilmemelidir.  " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/tarihisultanahmetkoftesi" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tarihi Sultanahmet Köftesi \n  Sultanahmet’in kendisi kadar tarihi olan köftesi yapılacak İstanbul ziyaretlerinde ihmal edilmemesi gereken lezzetlerin en başında yer alır. Bir kere yendiğinde bir daha akıllardan çıkmayan lezzete sahip meşhur Sultanahmet köftesini yemeden İstanbul seyahatinizi sonlandırmayın. " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //************************************************
+
+                <ImageView
+                    android:id="@+id/imageView21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/beyogluislakhamburgeri" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Beyoğlu Islak Hamburgeri \n Sultanahmet’in kendisi kadar tarihi olan köftesi yapılacak İstanbul ziyaretlerinde ihmal edilmemesi gereken lezzetlerin en başında yer alır. Bir kere yendiğinde bir daha akıllardan çıkmayan lezzete sahip meşhur Sultanahmet köftesini yemeden İstanbul seyahatinizi sonlandırmayın. " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/yemekListemeEkle13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

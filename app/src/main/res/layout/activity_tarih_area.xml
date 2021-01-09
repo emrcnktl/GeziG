@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tarihArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                //********************************
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/topkapisarayi" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Topkapı Sarayı \n Osmanlı İmparatorluğu, dünyanın en geniş sınırlara ulaşmış ve yüzyıllarca hakimiyetini sürdürmüş imparatorluklarından biri. Bu köklü tarihin ve ihtişamlı yapının 400 yıl boyunca yönetildiği, sultanların ve ailelerinin yaşadığı Topkapı Sarayı ise bütün görkemiyle Tarihi Yarımada’da görülmeyi bekliyor.
+Osmanlı’nın en şatafatlı düğünlerinin, tahta çıkma törenlerinin ya da entrikalarının ve hüzünlü hikayelerine şahit olan bu sarayda burada kendinizi tarihin kollarına bırakarak eşsiz bir tarih ziyafetine ortak olabilirsiniz.
+Topkapı Sarayı Müzesi ve Harem Gezisi’nde görülecek yerler arasında sarayın Harem bölümü, Hırka-ı Saadet Dairesi ve Has Oda bölümü, Babü’s Saade bölümü ve Köşkler Bahçesi bölümü bulunuyor.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/kapalicarsi" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kapalı Çarşı\n Tarihi Yarımada’nın en gözde duraklarından biri de Beyazıt’ta 550 yıldır ayakta duran Kapalı Çarşı. Yabancıların Grand Bazaar adıyla tanıdığı Kapalı Çarşı, içinde kaybolacağınız sokakları ve dünya altın piyasasına yön veren kuyumcularıyla ünlü.
+İstanbul’un en eski çarşısının içinde alışveriş yapmanın yanı sıra, burada satılan her şeyin İstanbul’un kadim ruhunu yansıttığını göreceksiniz.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/yerebatansarnici" />
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yerebatan Sarnıcı \n Bizans Dönemi’nde sarayın su ihtiyacını karşılamak için yaptırılan sarnıç, göz alıcı sütunları ve Medusa heykeli ile hala kendisine hayran bırakıyor.
+
+Bugün içinde birçok sanat etkinliğine de ev sahipliği yapan Yerebatan Sarnıcı’nda gerçekleşen konserler ve dinletiler, katılanlara büyülü bir dünyanın kapılarını aralıyor." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************
+
+                <ImageView
+                    android:id="@+id/imageView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/galatakulesi" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Galata Kulesi \n Bugün en tepesine çıkıp İstanbul manzarasını seyretmek için uzun kuyrukların beklendiği Galata Kulesi, İstanbul’un siluetini çizen en önemli simgelerden biri.
+528 yılında inşa edilen yapı, İstanbul Boğazı ve Haliç’e akim konumda, bir fener kulesi olarak inşa edilmiş ama dönem dönem zindan olarak da kullanılmış.
+Kuleye birlikte çıkan âşıkların sonunda evlendikleri, kuleyle ilgili rivayetlerin en popüler olanı…
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/rumelihisari" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rumeli Hisarı \n Fatih Sultan Mehmet’in İstanbul’un Fethi esnasında Karadeniz’den Bizans’a gelebilecek yardımları kesmek amacıyla 90 günde yapılan Rumelihisarı, amacına uygun olarak Boğazkesen Hisarı adıyla da biliniyor.
+
+Üç büyük kulesi ve surlarıyla muhteşem bir yapı olan Rumelihisarı, Boğaz’ın iki kıyısının birbirine en çok yaklaştığı nokta’da Anadolu Hisarı’nın tam karşısında yer alıyor.
+Bir zamanlar Rumelihisarı Konserleri gibi açık hava etkinliklerinin gerçekleştiği hisar, günümüzde müze olarak ziyarete açık. Rumeli Hisarı Müzesi’nde İstanbul’un fethinde kullanılan toplar, gülleler ve Haliç’i kapattığı söylenen zincirin bir parçası hala sergileniyor." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************
+
+                <ImageView
+                    android:id="@+id/imageView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/dolmabahcesarayi" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dolmabahçe Sarayı \n Osmanlı Padişahı Sultan Abdülmecit tarafından Boğaz kıyısında 1856’da yaptırılan bu Dolmabahçe Sarayı, Batı mimarisinden izler taşıyan ihtişamlı görüntüsüyle İstanbul’un en önemli simge yapılarından biri.
+Türkiye’deki en büyük sarayı olan Dolmabahçe Sarayı, Atatürk’ün de son günlerini geçirdiği mekan olması nedeniyle farklı bir manevi değere de sahip.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+                //********************************
+
+                <ImageView
+                    android:id="@+id/imageView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/kizkulesi" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kız Kulesi \n Üsküdar-Beşiktaş motorlarıyla karşıya geçerken yanından geçtiğimiz nazlı güzel Kız Kulesi hakkında sayısız efsane var…
+
+İstanbul denince akla ilk gelenlerden…
+İstanbul’un en romantik simgelerinden olan Kız Kulesi, 2000 yılında restore edilerek bir restoran olarak hizmet vermeye başladı. Üsküdar sahilden teknelerle 5 dakikada ulaşılan Kız Kulesi’nde evlenme teklif etmek, İstanbul’un adetlerinden biri haline geldi. Kız Kulesi’ni gezmek için restoranda yemek yeme şartı bulunmuyor, yalnızca tekneyle geçiş ücretini ödeyerek, Kız Kulesi’ni yakından görebilirsiniz.
+Üsküdar Salacak ve Kabataş’tan Kız Kulesi’ne tekne ile gitmek için Üsküdar Salacak iskelesinden 09.00-18.45 saatleri arasında her gün; Kabataş’tan 09.00-18.45 saatleri arasında sadece hafta sonu seferler yapılıyor.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/tarihListemeEkle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

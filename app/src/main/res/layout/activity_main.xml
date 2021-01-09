@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="104dp"
+            android:layout_height="426dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="56dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <Button
+                android:id="@+id/sanatButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sanat"
+                app:backgroundTint="#FF4500" />
+
+            <Button
+                android:id="@+id/tarihButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tarih"
+                app:backgroundTint="#FF4500" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="104dp"
+            android:layout_height="426dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="56dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/dinButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Din"
+                app:backgroundTint="#FF4500" />
+
+            <Button
+                android:id="@+id/yemekButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yemek"
+                app:backgroundTint="#FF4500" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="104dp"
+            android:layout_height="426dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="60dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/sporButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Spor"
+                app:backgroundTint="#FF4500" />
+
+            <Button
+                android:id="@+id/dogaButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Doğa"
+                app:backgroundTint="#FF4500" />
+
+            <Button
+                android:id="@+id/eglenceButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EĞLENCE"
+                app:backgroundTint="#FF4500" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <Button
+                android:id="@+id/listemButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listem"
+                app:backgroundTint="#FF4500"/>/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
+            android:layout_marginBottom="28dp"
+            android:text="Bir Kategori Seç"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="GeziG ile İstanbulda gezilmedik yer bırakma!"
+            android:textSize="21dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

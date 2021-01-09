@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eglenceArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+                //*********************************
+
+                <ImageView
+                    android:id="@+id/imageView22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/frankesteinkorkuevi" />
+
+                <TextView
+                    android:id="@+id/textView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frankenstein Korku Evi \n Çılgın bilim adamı Dr. Frankenstein’in torunu eski eşyalar arasında dedesinin ajandasını bulur ve çalışmalarını devam ettirir. Amacı simya, elektrik gücü ve teknolojiyi kullanıp, et ve çeliği birleştirerek ölümsüz bir ordu yaratmak ve dünya hâkimiyetini ele geçirmektir. Deneylerine çoktan başlamıştır bile... ABD istihbaratı olayı araştırmak üzere daha önceki operasyonlarda üstün başarılar elde etmiş elit bir FBİ takımını Yüzbaşı Harrison önderliğinde görevlendirir. Bu takım yeni düşmanı alt etmek için gereken cesareti bulacaktır, ya da ölecektir. Frankenstein Korku Evi, İstanbul’un merkezinde Kadıköy’de seni ve arkadaşlarını bekliyor. 3 Katlı Korku Evi, cesaretini ve takımı toplayan tüm ajanlarımızı göreve çağırıyor. Ancak unutmayın bu korku evinden kurtulmak herkesin harcı değil." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/eglenceListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //*********************************
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/istanbuloptimumoutlet" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Optimum Outlet \n İstanbul Anadolu Yakası’nın merkezinde yer alan, şehrin her yerinden kolayca ulaşılabilen E-5 karayolu üzerinde bulunan İstanbul Optimum Premium Outlet, 2008 yılında outlet konseptini şehrin merkezine getirerek, rakipleri arasında fark yaratmıştır.Avrupa’nın ve Türkiye’nin En İyi Outleti ödüllerini alan İstanbul Optimum Premium Outlet, çağdaş ve sıcak mekânları ile sosyal kent yaşamını yeniden yorumlayarak yılda yaklaşık 13 milyona ulaşan ziyaretçisinin alışveriş alışkanlıklarını da değiştirmektedir. Ziyaretçilerine sınırsız alışveriş ve eğlence olanağı sunan Optimum, alışverişin yaşam şekline dönüştüğü bir sosyal ortam da yaratmaktadır. Modern sinemaları, 541 m2’lik Anadolu yakasının ilk ve tek gerçek buz pateni pisti, 5D sineması, çocuk oyun alanları ile ziyaretçilerine mutlu ve eğlenceli anlar yaşatarak alışveriş keyiflerine ayrıcalık katmaktadır.
+Tamamı gün ışığı alan 1.500 kişi oturma kapasiteli yerli ve yabancı markalardan oluşan food court alanında Optimum ziyaretçileri, değişik lezzetleri tadabilmekte ve açık hava terasları ile de keyifli anlar yaşayabilmektedirler.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/eglenceListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //*********************************
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/kidzania" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="KidZania \n KidZania, 0-14 yaş arası geliştirici, fiziksel ve sosyal becerilerini geliştirebildiği, tercihleri ​​meslekleri deneyimleyebildiği, kendi kararlarını verip özgürce hareket edebilen, yaratıcılığını kullanabildiği, arkadaşlar edindiği, ürettiği dünyanın ilk ülkeler ülkesidir.
+KidZania'da çocuklar, birbirlerinin dünyasına adım atarak farklı iş alanlarını tanıma, deneyimleme ve sorumluluk alma fırsatını yakalıyor. Bilgi alma işi bir üniforma giyip işbaşı yapıyor. Pilotlar uçak kullanıyor, gizli ajanlar sır perdelerini dinliyor, arkeologlar kazı yapıyor ve şefler birbirinden leziz yiyecekler hazırlıyor.
+Kendine ait tarihi, hikayesi, yönetim şekli, bildirgesi, ekonomisi, dili, bayrağı, hakları ve hak savunucuları var KidZania'da 21. yüzyılın ön plana çıkan meslekleriyle tanışan çocuklar, bir diğer yandan da çevre, bölüm, finansal okuryazarlık, ekip çalışması, sorumluluk bilinci, özgüven gibi önemli kavramları öğreniyor ve geleceğe hazırlanıyor.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/eglenceListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //*********************************
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/legoland" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LEGOLAND® Discovery Center \n Aileleri LEGO® yapım parçasının harika dünyasına davet ediyor. Ziyaret sırasında çocuklar, arkadaşları ve aileleri ile birlikte inşa etme, oynama ve öğrenme fırsatı buluyor. Cazibe, Duplo, LEGO Ninjago ™ ve LEGO Friends ™ gibi birçok etkileşimli bölümden oluşur. Ek olarak, LEGO ile sadece oynamak ve inşa etmek için pek çok yer var, eğlenceli LEGO filmleri içeren bir 4D sinema ve güzel bir LEGO şehrinde heyecan verici bir cazibe yolculuğu var. Lahey'deki çeşitli önemli noktaların binlerce LEGO yapım parçasıyla yeniden yaratıldığı MINILAND®'ı ziyaret edin." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/eglenceListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //*********************************
+
+                <ImageView
+                    android:id="@+id/imageView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ozgurlukparki" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Özgürlük Parkı \n Selamiçeşme, İstanbul'un Anadolu Yakası'nda bulunan Kadıköy ilçesinde bir semttir. Bir semt olduğundan kesin sınırları çizilememekle birlikte, idari olarak Feneryolu, Fenerbahçe ve Göztepe mahallelerinin kesişiminde yer aldığı söylenebilir. Semt adını tarihî Selamiçeşme'den almaktadır. Özgürlük Parkı, Selamiçeşme Parkı ve Selamiçeşme Camii semtin önemli yerlerindendir." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/eglenceListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

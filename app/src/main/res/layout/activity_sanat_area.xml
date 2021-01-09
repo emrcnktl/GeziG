@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sanatArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                //****************************************
+
+                <ImageView
+                    android:id="@+id/imageView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/turkvislameserlerimuzesi" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Türk ve İslam Eserleri Müzesi \n İstanbul'un Fatih ilçesinde bulunan, Türk ve İslâm sanatı eserlerini topluca kapsayan ilk Türk müzesidir.
+19. yüzyılın sonunda başlayan kuruluş çalışmaları 1913 yılında tamamlanmış ve müze, Mimar Sinan'ın en önemli yapılarından bir olan Süleymaniye Camii külliyesi içinde yer alan imaret binasında, 1914'te, Evkaf-ı İslâmiye Müzesi (İslâm Vakıfları Müzesi) adı ile ziyarete açılmıştır. Cumhuriyetin ilanından sonra ise bugünkü adını almıştır. Uzun süre Süleymaniye Külliyesi'ndeki imaret binasında yer alan müze, 1983'te Sultanahmet Meydanı'nın batısında yer alan İbrahim Paşa Sarayı'na (16. yüzyıl) taşınmıştır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sanatListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //****************************************
+
+                <ImageView
+                    android:id="@+id/imageView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/istanbulmodern" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="İstanbul Modern \n Türkiye’nin sanatsal yaratıcılığını ve kültürel kimliğini ulusal ve uluslararası sanat ortamıyla paylaşmak amacıyla 2004 yılında ülkemizin ilk modern ve çağdaş sanat müzesi olarak kurulan İstanbul Modern, disiplinlerarası etkinliklere ev sahipliği yapmaktadır.
+İstanbul Modern, uluslararası bir yönelimle, modern ve çağdaş sanat yapıtlarını, fotoğraf, tasarım, mimari, yeni medya ve sinema alanlarındaki üretimleri koleksiyonunda toplar, korur, sergiler ve belgeler. Türkiye’nin kültürel kimliğinin uluslararası sanat ortamıyla paylaşılmasına aracılık eder. Sanatçıların üretimlerine ve uluslararası işbirlikleri kurabilmelerine destek olur. Sanatı kitleler için kolayca erişilebilir kılmayı misyon edinen İstanbul Modern, bu amaçla her yaştan sanat izleyicisine eğitim programları sunar.
+" />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sanatListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+                //****************************************
+
+                <ImageView
+                    android:id="@+id/imageView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/buyuksaraymozaiklerimuzesi" />
+
+                <TextView
+                    android:id="@+id/textView37"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Büyük Saray Mozaikler Müzesi \n İstanbul'da Sultanahmet Meydanı'nındaki Arasta Pazar'da yer alan mozaik müzesidir. Müze binası, üzerine Sultanahmet Camii Çarşısı'nın yapıldığı Büyük Saray'ın (Bukaleon Sarayı), tabanı mozaiklerle kaplanmış olan peristil (ortası açık sütunlu avlu) bölümünün kalıntıları üzerine inşa edilmiştir. Peristilin diğer bölümlerine ait mozaikler de bulundukları yerden müze binasına getirilmiştir." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sanatListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Button"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //****************************************
+
+                <ImageView
+                    android:id="@+id/imageView30"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/kariyemuzesi" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kariye Müzesi \n Kariye Camii veya eskiden Azize Kurtarıcı Hora Kilisesi , İstanbul'un Fatih ilçesinin Edirnekapı semtinde yer alan bir cami, eski Orta Çağ Rum Ortodoks kilisesi ve müze.
+Edirnekapı semtinde, halen ayakta duran Theodosius Surları'na yaklaşık yüz metre uzaklıkta bulunan yapı, Doğu Roma İmparatorluğu döneminde büyük bir yapı topluluğu olan Khoara Manastırı'nın merkezini oluşturmaktaydı. İstanbul'un Fethi'nden sonra elli sekiz yıl daha kilise olarak işlevini sürdü. Mozaikleri ile ünlü kilise, 1511'de cami olarak kullanılmaya başladı. 1945'te ulusal anıt ilan edilen yapı, Bakanlar Kurulu kararı ile 1948 yılında Müzeler İdaresi’ne bağlı bir müze haline getirildi.Kariye, iyi korunmuş mozaik ve freskleriyle dünya çapında tanınmıştır. Kiliseden camiye dönüştürülmesinden sonra, içindeki Hristiyanlık sembolleri, yazılar, bütün freskolar, mozaikler ince bir boya ve kireç badanası ile yapıyı tahrip edilmeden örtülmüş, bu sayede günümüze kadar ulaşmıştır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sanatListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //****************************************
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/borusanmuzesi" />
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Borusan Contemporary \n Perili Köşk veya Yusuf Ziya Paşa Yalısı, İstanbul'un Sarıyer ilçesinin Rumelihisarı semtinde yer alan tarihi bir yapıdır. 9 katlı olan bina, yaklaşık 5000 m²'lik zemin alanına sahiptir. Yalının yapımının uzun süresi bitmemesinden dolayı yapıya Perili Köşk adı verilmiştir. Borusan Çağdaş Sanat Koleksiyonuna ve çeşitli yerli/yabancı küratörlerin kişisel veya karma çağdaş sanat sergilerine ev sahipliği yapan köşk hafta içleri ofis olarak kullanılmakta, hafta sonlarıysa sanatseverlerin ziyaretine açılmaktadır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sanatListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

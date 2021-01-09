@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mainscreen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="GeziG"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MainScreen">
+        <activity android:name=".tarihArea"></activity>
+        <activity android:name=".eglenceArea" />
+        <activity android:name=".dogaArea" />
+        <activity android:name=".sanatArea" />
+        <activity android:name=".sporArea" />
+        <activity android:name=".yemekArea" />
+        <activity android:name=".Liste" />
+        <activity android:name=".dinArea" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

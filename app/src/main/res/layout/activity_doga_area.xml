@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dogaArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                //********************************************
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/emirgankorusu" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Emirgân Korusu \n İstanbul'un Sarıyer ilçesinde yer alan bir korudur. İstanbul Boğazı kıyılarında, Emirgân-İstinye semtleri arasında yer alır. İstanbul Boğazı kıyısında, 47,2 hektarlık bir alanda sırtlar ve yamaçlar üstüne yayılmıştır. Çevresi yüksek duvarlarla çevrilmiş durumdadır.
+Koru, 17. yüzyılda Osmanlı padişahı IV. Murad tarafından İranlı Emir Güne Han'a armağan edilmiştir. Daha önce Feridun Bahçeleri olarak anılan bölge bundan sonra Emirgân Korusu olarak anılmaya başlanmıştır. Yüzyıllar boyunca pek çok kez el değiştirmiş, 19. yüzyılda Osmanlı Padişahı Abdülaziz tarafından Mısır Hıdivi İsmail Paşa'ya verilmiştir. 1871-1878 yılları arasında koru içinde 3 köşk yaptırılmıştır. Günümüze de ulaşan bu köşkler Sarı Köşk, Pembe Köşk ve Beyaz Köşk olarak adlandırılmaktadır. 1940 yılında dönemin İstanbul belediye başkanı Lütfi Kırdar'ın girişimiyle kamulaştırılıp park olarak düzenlenerek halka açılmıştır.
+2006 yılından itibaren her yıl nisan ayında Lâle Festivali düzenlenmektedir." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/istanbulforumakvaryum" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="İstanbul Sea Life Akvaryum \n Bayrampaşa'da Forum İstanbul adlı alışveriş merkezi bünyesinde yer alan İstanbul'un ve Türkiye'nin en büyük akvaryumudur. 8 bin metrekarelik alanda, 80 metrelik cam sualtı gözlem tüneliyle dünyanın en büyük akvaryumları arasına girmiştir. 2009'un Ekim ayında hizmete giren Turkuazoo İstanbul Akvaryum Sualtı Dünyası, 270 derecelik bir açıyla ziyaretçilerine aralarında köpekbalıklarının, vatozların, ahtapotların ve deniz kaplumbağalarının ender türlerinin bulunduğu 10 bini aşkın deniz canlısını inceleme imkânı sunar." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/belgradormani" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Belgrad Ormanı \n Çatalca Yarımadası'nın en doğu ucunda, İstanbul ilinin Avrupa Yakası'nda yer alan doğal oluşumlu ağaçlık bölgedir. Doğusunda İstanbul Boğazı, kuzeyinde ise Karadeniz doğal sınırlarıdır. Bizans ve Osmanlı döneminde İstanbul'a içmesuyu sağlayan en önemli kaynakken; günümüzde kente sağladığı su kentin gereksiniminin çok altında olduğu için daha çok rekreasyonel işlevi ağır basmaktadır.
+Orman adını, Kanuni Sultan Süleyman'ın Sırbistan seferi dönüşü beraberinde getirdiği Belgradlıların yerleştirildiği Belgrad köyünden almaktadır. Köy sakinlerinin su kaynaklarını kirlettiği anlaşılınca padişah buyruğuyla köy taşınmış; bu tarihten sonra ormanın ve barındırdığı su kaynaklarının korunması için ilk kez resmî önlemler alınmıştır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/polonezkoy" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Polonezköy \n Doğa ile baş başa bir hafta sonu girmek isteyenler için ilk tercihlerden biri tabii ki de Polonezköy Tabiat Parkı. İstanbul’un içinde gürültüden uzak bir yer arıyorsanız burası tam sizin için uygun bir yer diyebiliriz. Yaklaşık 3000 hektarlık alanı kaplayan park güünümüzde İstanbul’un en büyük tabiat parkı olma özelliğini de taşımaktadır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+                <ImageView
+                    android:id="@+id/imageView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/buyukada" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Büyükada \n Prens Adaları olarak da bilinen İstanbul açıklarındaki adaların en büyüğüdür. Eski Yunanca adı Prinkipos'tur.Prinkipos Yunancada Prens anlamına gelmektedir.arihi ve doğal güzellikleriyle yerli ve yabancı turistlerin uğrak noktalarından biridir. Adada ulaşım bisiklet ve elektrikli araçlar ile sağlanır. Bir dönem iç ulaşım atların kullanıldığı faytonlarla sağlanmaktaydı.Aya Yorgi manastır ve kilisesinin özel bir yeri vardır: Her yıl 23 Nisan ve 24 Eylül günlerinde sayısız insanın 200 metrelik bu tepeyi tırmanıp kiliseye ulaşınca, inancı doğrultusunda dua ettiği, niyet tuttuğu ya da şifa umuduyla siyah cübbeli bir Ortodoks papazdan dua dilediği görülebilir."/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/gokturktabiatparki" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Göktürk Göleti Tabiat Parkı \n İstanbul ili Eyüp ilçesi içinde yer almakta olup, 2011 yılında 56 hektarlık’lık alanı ile Tabiat Parkı olarak ilan edilmiştir. Göktürk Göleti Tabiat Parkı, ismini bir bölümü alan içerisinde kalan Göktürk Göleti'nden almaktadır. Gölet, Karanlıkder ve kolları tarafından beslenmektedir. Alanda hakim ağaç türü meşe ve gürgendir."/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //********************************************
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ataturkarboterum" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atatürk Arboretumu \n İstanbul'un Sarıyer ilçesinde, Kemerburgaz-Bahçeköy yolu üzerinde, ağaç ve odunsu bitkilerin sergilendiği geniş yeşillik alandır."/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/dogaListemeEkle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

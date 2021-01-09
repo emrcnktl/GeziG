@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sporArea">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/condradtenisclub" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conrad Tenis Kulübü \n Tennis Club , Conrad İstanbul Bosphorus içerisinde yer almaktadır. Lüksün ve kalitenin ön planda olduğu Tennis Club, İstanbul Boğazına hakim konumu ve kişiselleştirilmiş hizmeti ile misafirlerine olağanüstü bir deneyim sunmaktadır.Tennis Club, 3 adet açık toprak kort ile hizmet vermektedir. Conrad İstanbul Bosphorus içerisinde, misafirlerin faydalanabileceği Gym - Cardio, Açık ve Kapalı Havuz, Sauna - Buhar Odası, Manzara Restoran, Terrace Kokteyl ve Kapalı Otopark vardır." />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/sukrusaracoglustadyumu" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Şükrü Saracoğlu Stadyumu \n  İstanbul, Kadıköy'de bulunan, Fenerbahçe'nin maçlarını oynadığı 47.834 seyirci kapasiteli stadyumdur. Türkiye'nin en büyük 4. futbol stadyumudur. Kurbağalı Dere'nin Kalamış Koyu'na döküldüğü yerin hemen doğu yakasındaki alanda yer alır."/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/alkuzubinicilikokulu" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alkuzu Binicilik Okulu \n Kemerburgaz kaynak suları, yeşil ormanları ve temiz havası ile İstanbul’un az kalmış doğal alanlarından bir tanesi. 47 dönüm arazi üzerinde bulunan Alkuzu Çiftligi ata tutkun 6 yaş üzeri her seviyedeki sporcuya okul olarak hizmet eder."/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ataturkolimpiyatstadi" />
+
+                <TextView
+                    android:id="@+id/textView26"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Atatürk Olimpiyat Stadyumu \n Türkiye'nin İstanbul şehrinde yer alan bir stadyumdur. Adını ülkenin ilk cumhurbaşkanı Mustafa Kemal Atatürk'ten alan tesis, kapasite olarak ülkedeki en büyük stadyumdur. Olimpiyat Oyunlarına hazırlık projesi kapsamında Türk atletizmine ve futboluna hizmet etmesi amacıyla yaptırılmıştır."/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ituolimpikyuzmehavuzu" />
+
+                <TextView
+                    android:id="@+id/textView27"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="İTÜ Olimpik Yüzme Havuzu \n Olimpik Yüzme Havuzu, İTÜ Beden Eğitimi Bölümü'ne 10 Mayıs 2007 tarihinde teslim edilmiştir. Havuzumuz, 18 Haziran 2007 tarihinden itibaren İTÜ öğrencilerinin, mensuplarının ve misafirlerinin hizmetine açılmıştır. Havuzumuz Pazartesi günleri hariç, hafta boyunca 07.30–20.45 saatleri arasında hizmet vermektedir. Pazartesi günleri genel temizlik ve bakım nedeniyle tesis kullanıma kapalıdır.  "/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/turktelekomarena" />
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Türk Telekom Stadyumu \n Türk Telekom Stadyumu (kısaca TT Stadyumu), ya da Ali Sami Yen Spor Kompleksi Türk Telekom Stadyumu, İstanbul'un Sarıyer ilçesinde yer alan çok amaçlı stadyum. Galatasaray'ın iç sahadaki futbol maçlarına ev sahipliği yapmaktadır "/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                //**************************************************
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/vodafonepark" />
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vodafone Park \n İstanbul'un Beşiktaş ilçesinde bulunan 42.590 izleyici kapasiteli çok amaçlı stadyum. Ev sahibi Beşiktaş futbol takımının eski stadyumu BJK İnönü Stadyumu yıkılarak aynı arazi üzerine inşa edilmiştir"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+                <Button
+                    android:id="@+id/sporListemeEkle7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Listeme Ekle"
+                    app:backgroundTint="#FF4500"/>/>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
